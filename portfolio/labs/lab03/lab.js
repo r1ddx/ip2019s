@@ -6,7 +6,7 @@ function readFiles(files){
     //files is a FileList of File objects. List some properties.
     var output = [];
     for (var i = 0, f; f= files[i]; i++){
-        ourput.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+        output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
             f.size, ' bytes, last modified: ',
             f.lastModiefiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
             '</li>');
@@ -14,7 +14,7 @@ function readFiles(files){
 document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
 
 
-document.getElementById('vontent').innerHTML = '';
+document.getElementById('content').innerHTML = '';
 document.getElementById('svgimage').innerHTML = '';
 
 //Looop through the FileList and render image files as thumbnails.
@@ -23,7 +23,7 @@ for(var i = 0, f; f= files[i]; i++){
     reader.readAsText(files[i], 'UTF-8');
 
     reader.onload = function(evt){
-        var span = document.creatElement('span');
+        var span = document.createElement('span');
         span.setAttribute("class", "svgshow");
         span.innerHTML = evt.target.result;
         document.getElementById('svgimage').insertBefore(span, null);
@@ -59,9 +59,8 @@ function handleDragOver(evt){
 function start(e){
     document.getElementById('files').addEventListener('change', handleFileSelect, false);
 
-    var dropZONE = document.getElementByID('drop_zone');
+    var dropZone = document.getElementById('drop_zone');
     dropZone.addEventListener('dragover', handleDragOver, false);
-    dropZone.addEventListener('drop', handleFileSelect
-        _drag, false);
+    dropZone.addEventListener('drop', handleFileSelect_drag, false);
 }
 window.addEventListener( "load", start, false );
