@@ -40,7 +40,7 @@
  
 
   <g transform="translate(256,256)">
-   <circle fill="" stroke="black" stroke-width="0" cx="0" cy="0" r="125"></circle>
+   <circle fill="grey" stroke="black" stroke-width="0" cx="0" cy="0" r="125"></circle>
 
   </g>
 </svg>
