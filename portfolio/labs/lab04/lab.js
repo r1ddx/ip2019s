@@ -37,7 +37,7 @@ $(function() {
     // butoon listener
     $('#b1').on('click', function(){
         $('.issue').addClass("back");
-        udate();
+        update();
     });
 
     flip = 0;
