@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="512" width="512">
+
+  <rect width="512" height="512" stroke="red" fill="white"/>
+
+  <path d="
+    M206 114
+    C
+    23 353 417 13 410 199 
+    402 212 357 236 232 221 
+    422 409 286 151 236 114z" fill="none" stroke="#000" stroke-width="1px"/>
+
+  <circle fill="Lavender" stroke="#f0f" cx="206" cy="114" r="16" opacity="1">
+    <animate attributeName="opacity" to="1" begin="0s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+   <circle fill="Lavender" stroke="#f0f" cx="150" cy="114" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="1s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+   <circle fill="Lavender" stroke="#f0f" cx="130" cy="140" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="2s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+  <circle fill="Lavender" stroke="#f0f" cx="120" cy="170" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="3s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+   <circle fill="Lavender" stroke="#f0f" cx="110" cy="200" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="4s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+ 
+   <circle fill="Lavender" stroke="#f0f" cx="120" cy="230" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="5s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+
+   <circle fill="Lavender" stroke="#f0f" cx="100" cy="260" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="6s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+    <circle fill="Lavender" stroke="#f0f" cx="150" cy="280" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="7s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+
+   <circle fill="Lavender" stroke="#f0f" cx="200" cy="300" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="8s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+
+    <circle fill="Lavender" stroke="#f0f" cx="240" cy="320" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="9s" dur="1s" fill="freeze" repeatCount="0" />
+  </circle>
+
+
+</svg>
