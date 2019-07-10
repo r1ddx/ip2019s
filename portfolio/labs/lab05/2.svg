@@ -40,18 +40,22 @@
  
 
   <g transform="translate(256,256)">
-    <ellipse fill="white" stroke="black" stroke-width="2" cx="0" cy="0" rx="130" ry="110"/>
-    <path d="M30 -100 C100 -140,130 -150,110,-55" stroke="black" stroke-width="2" fill="white"/>
-    <path d="M-30 -100 C-100 -140,-130 -150,-110,-55" stroke="black" stroke-width="2" fill="white"/>
-    <ellipse fill="yellow" stroke="black" stroke-width="2" cx="0" cy="35" rx="15" ry="10"/>
-    <ellipse fill="black" stroke="black" stroke-width="2" cx="50" cy="-5" rx="8" ry="12"/>
-    <ellipse fill="black" stroke="black" stroke-width="2" cx="-50" cy="-5" rx="8" ry="12"/>
-    <path d="M100 -10 L170 -30" stroke="black"/>
-    <path d="M100 10 L170 20" stroke="black"/>
-    <path d="M100 30 L170 60" stroke="black"/>
-    <path d="M-100 -10 L-170 -30" stroke="black"/>
-    <path d="M-100 10 L-170 20" stroke="black"/>
-    <path d="M-100 30 L-170 60" stroke="black"/>
+    <ellipse fill="white" stroke="black" stroke-width="" cx="0" cy="0" rx="130" ry="110"/>
+    <path d="M30 -100 C100 -140,130 -150,110,-55" stroke="black" stroke-width="" fill="white"/>
+    <path d="M-30 -100 C-100 -140,-130 -150,-110,-55" stroke="black" stroke-width="" fill="white"/>
+    <ellipse fill="yellow" stroke="black" stroke-width="" cx="0" cy="35" rx="15" ry="10"/>
+    <ellipse fill="black" stroke="black" stroke-width="" cx="50" cy="-5" rx="8" ry="12"/>
+    <ellipse fill="black" stroke="black" stroke-width="" cx="-50" cy="-5" rx="8" ry="12"/>
+    <path d="M100 -10 L170 -30" stroke="black" stroke-width=""/>
+    <path d="M100 10 L170 20" stroke="black" stroke-width=""/>
+    <path d="M100 30 L170 60" stroke="black" stroke-width=""/>
+    <path d="M-100 -10 L-170 -30" stroke="black" stroke-width=""/>
+    <path d="M-100 10 L-170 20" stroke="black" stroke-width=""/>
+    <path d="M-100 30 L-170 60" stroke="black" stroke-width=""/>
+     <polygon fill="pink" points="50,-80 130,-100 100,-25" stroke="black" stroke-width="" />
+      <polygon fill="pink" points="50,-80  -5,-140  -30,-60" stroke="black" stroke-width=""/>
+     <circle fill="pink" stroke="black" stroke-width="" cx="50" cy="-80" r="28"></circle>
+
     
 
   </g>
