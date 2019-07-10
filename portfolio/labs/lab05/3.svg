@@ -41,11 +41,11 @@
 
   <g transform="translate(256,256)">
     <ellipse fill="skyblue" stroke="black" stroke-width="2" cx="0" cy="0" rx="155" ry="160"/>
-    <ellipse fill="white" stroke="black" stroke-width="1" cx="0" cy="30" rx="125" ry="130"/>
-    <ellipse fill="white" stroke="black" stroke-width="1" cx="-35" cy="-100" rx="35" ry="40"/>
-    <ellipse fill="white" stroke="black" stroke-width="1" cx="35" cy="-100" rx="35" ry="40"/>
-    <ellipse fill="black" stroke="black" stroke-width="0" cx="22" cy="-100" rx="8" ry="12"/>
-    <ellipse fill="black" stroke="black" stroke-width="0" cx="-22" cy="-100" rx="8" ry="12"/>
+    <ellipse fill="white" stroke="black" stroke-width="2" cx="0" cy="30" rx="125" ry="130"/>
+    <ellipse fill="white" stroke="black" stroke-width="2" cx="-35" cy="-100" rx="35" ry="40"/>
+    <ellipse fill="white" stroke="black" stroke-width="2" cx="35" cy="-100" rx="35" ry="40"/>
+    <ellipse fill="black" stroke="black" stroke-width="2" cx="22" cy="-100" rx="8" ry="12"/>
+    <ellipse fill="black" stroke="black" stroke-width="2" cx="-22" cy="-100" rx="8" ry="12"/>
     <path d="M70 -30 L170 -60" stroke="black" stroke-width="2"/>
     <path d="M70 -20 L180 -10" stroke="black" stroke-width="2"/>
     <path d="M70 0 L170 30" stroke="black" stroke-width="2"/>
